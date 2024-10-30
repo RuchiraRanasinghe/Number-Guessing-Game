@@ -16,10 +16,10 @@ function guess(){
             
             lblChances.innerHTML = "";
         }else if(randomNumber > txtInput){
-            lblResult.innerHTML = "Your Number is Too low..!🥱";
+            lblResult.innerHTML = "Your Number is Too low...!🥱";
             imgBox.innerHTML=`<img src="https://media.tenor.com/6I9cJ0kdQXIAAAAM/this-is-the-way-tom-the-cat.gif" alt="" class="mx-auto">`;
         }else{
-            lblResult.innerHTML = "Your Number is Too high..!😬";
+            lblResult.innerHTML = "Your Number is Too high...!😬";
             imgBox.innerHTML=`<img src="https://media.tenor.com/6I9cJ0kdQXIAAAAM/this-is-the-way-tom-the-cat.gif" alt="" class="mx-auto">`;
         }
         count--;
